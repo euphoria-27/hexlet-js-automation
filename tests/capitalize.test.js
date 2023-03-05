@@ -1,4 +1,4 @@
-import { capitalize } from "../src/capitalize"
+import { capitalize } from "../src/capitalize.js"
 
 if(capitalize('hello') !== 'Hello') {
     throw new Error('function not working')
